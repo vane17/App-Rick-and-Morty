@@ -1,25 +1,66 @@
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react'
+
+import Cards from "./components/Cards/Cards";
+import CardDetails from './components/Cards/CardsDetails';
+import Header from './components/Header/Header';
+import Pagination from './components/Pagination/Pagination';
+import Search from './components/Search/Search';
+import Serie from './components/Serie/Serie';
 import './App.css';
+import Details from './components/Details/Details';
 
 function App() {
+
+
+  let [pageNumber, setPageNumber] = useState(1); //numero predeterminado
+  let [search, setSearch] = useState(""); 
+
+
+
+  console.log(pageNumber)
+  let [fetchedData, updateFetchedData] = useState(([]));
+  let { info, results } = fetchedData;
+  //console.log(fetchedData.results)
+  //console.log(results);
+  console.log(fetchedData)
+
+  let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}`;
+
+  useEffect(() => {
+
+    (async function(){
+      let data = await fetch(api).then(res => res.json());
+      //console.log(data.results); //para ver solo los resultados sin la info
+      updateFetchedData(data)
+    })();
+
+  }, [api]);
+
+
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="App"> 
+
+      <Header/>
+      <Search setSearch={setSearch} setPageNumber={setPageNumber}/>
+      <Serie info={info}/>
+      <div className="Cards-section">
+        <div className="Cards-and-details">
+          <Cards results={results}/>
+          
+        </div>
+        <Details/>
+      </div>
+      
+      <Pagination setPageNumber={setPageNumber} pageNumber={pageNumber} info={info} />
+      
+
     </div>
   );
-}
+};
 
 export default App;

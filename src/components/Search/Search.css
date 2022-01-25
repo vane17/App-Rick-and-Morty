@@ -1,0 +1,26 @@
+.form {
+   display: flex; 
+   justify-content: center;
+   margin: 40px 35px 25px;
+}
+
+.form-input{
+    width:80%;
+    max-width: 1000px;
+    height: 5vh;
+    border: #191e38 3px solid;
+    margin-right: 30px;
+}
+
+.form-button{
+    width: 15%;
+    max-width: 130px;
+    min-width: 70px;
+    background-color: #d6f813;
+    color: #191e38;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:1.6rem;
+    cursor: pointer;
+}

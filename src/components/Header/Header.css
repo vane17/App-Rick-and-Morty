@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #191e38;
+    padding: 20px 50px;
+}
+
+.header-logo{
+    background-image: url(./logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+}
