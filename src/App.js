@@ -19,7 +19,7 @@ function App() {
   let { info, results } = fetchedData;
   //console.log(fetchedData.results)
   //console.log(results);
-  console.log(fetchedData)
+  //console.log(fetchedData)
 
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}`;
 
@@ -27,7 +27,6 @@ function App() {
 
     (async function(){
       let data = await fetch(api).then(res => res.json());
-      //console.log(data.results); //para ver solo los resultados sin la info
       updateFetchedData(data)
     })();
 

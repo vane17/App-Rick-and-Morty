@@ -6,15 +6,8 @@
     display: flex;
     flex-direction: column;
     padding: 20px 25px;
-   margin:30px 30px 45px 0; 
-   
+    margin:30px 30px 45px 0; 
     border-radius: 10px;
-}
-
-.details-title{
-    align-self: center;
-    font-size: 1.8rem;
-    margin-bottom: 10px;
 }
 
 #details-image{

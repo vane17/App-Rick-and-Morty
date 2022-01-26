@@ -102,7 +102,7 @@ const Cards = ({results}) => {
                             const containerEpisode = document.getElementById('details-episodios')
                             ReactDOM.render(episodeDetails, containerEpisode)
 
-                            }} ><a href='#Details'>Ver mas</a></button>
+                        }} ><a href='#Details'>Ver mas</a></button>
                   
                     </div>
                 </div>
@@ -116,6 +116,5 @@ const Cards = ({results}) => {
         <>{display}</>
     )
 };
-
 
 export default Cards;
