@@ -1,22 +1,23 @@
-import React from 'react'
+import React from 'react';
 import './Details.css';
 
 
 const Details = () => {
-    return (
+    
+    return(
 
         <div className="Details">
-            <h2>Detalle</h2>
+            <h2 className="details-title">Detalle</h2>
+            <span id="details-image"></span>
+            
+            <div id="details-name">Nombre del personaje</div>
 
-            <p>Imagen</p>
-            <h2>Nombre del personaje</h2>
-
-            <h3>-Gender</h3>
-            <h3>-Origin</h3>
-            <h3>-Location</h3>
-            <h3>-Numero de episodios</h3>
+            <h3 id="details-Genger">- Gender:</h3>
+            <h3 id="details-origin">- Origin:</h3>
+            <h3 id="details-location">- Location:</h3>
+            <h3 id="details-episodios">- Number of episodes:</h3>
         </div>
-    )
-}
+    );
+};
 
 export default Details;

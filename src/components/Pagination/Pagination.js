@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 import ReactPaginate from 'react-paginate';
-import './Pagination.css'
+import './Pagination.css';
+
+
 const Pagination = ({setPageNumber, pageNumber, info}) => {
     return (
+
         <ReactPaginate 
             pageCount={info?.pages} 
-            
             className="pagination"
             nextLabel="Next"
             nextClassName="buttons"
@@ -15,10 +17,8 @@ const Pagination = ({setPageNumber, pageNumber, info}) => {
             pageLinkClassName='link'
             onPageChange={(data) => {setPageNumber(data.selected+1)}}
             activeClassName="active"
-
-
         />
-    )
-}
+    );
+};
 
-export default Pagination
+export default Pagination;

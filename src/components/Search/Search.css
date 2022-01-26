@@ -6,14 +6,23 @@
 
 .form-input{
     width:80%;
-    max-width: 1000px;
-    height: 5vh;
+    max-width: 900px;
+    height: 30px;
     border: #191e38 3px solid;
     margin-right: 30px;
+    font-size:1.8rem;
+    font-weight: 700;
+    padding-left: 10px;
+   
+}:focus{
+    border-color: #d6f813;
+}:hover{
+    border-color: #d6f813;
 }
 
 .form-button{
     width: 15%;
+    height:30px;
     max-width: 130px;
     min-width: 70px;
     background-color: #d6f813;

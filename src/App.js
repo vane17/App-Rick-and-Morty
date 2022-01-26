@@ -1,23 +1,20 @@
 import React, {useState, useEffect} from 'react'
 
 import Cards from "./components/Cards/Cards";
-import CardDetails from './components/Cards/CardsDetails';
 import Header from './components/Header/Header';
 import Pagination from './components/Pagination/Pagination';
 import Search from './components/Search/Search';
 import Serie from './components/Serie/Serie';
-import './App.css';
 import Details from './components/Details/Details';
+import './App.css';
+
 
 function App() {
 
-
-  let [pageNumber, setPageNumber] = useState(1); //numero predeterminado
+  let [pageNumber, setPageNumber] = useState(1); 
   let [search, setSearch] = useState(""); 
 
-
-
-  console.log(pageNumber)
+ // console.log(pageNumber)
   let [fetchedData, updateFetchedData] = useState(([]));
   let { info, results } = fetchedData;
   //console.log(fetchedData.results)
@@ -37,10 +34,6 @@ function App() {
   }, [api]);
 
 
-
-
-
-
   return (
 
     <div className="App"> 
@@ -48,17 +41,17 @@ function App() {
       <Header/>
       <Search setSearch={setSearch} setPageNumber={setPageNumber}/>
       <Serie info={info}/>
+
       <div className="Cards-section">
         <div className="Cards-and-details">
           <Cards results={results}/>
-          
         </div>
+
         <Details/>
       </div>
       
       <Pagination setPageNumber={setPageNumber} pageNumber={pageNumber} info={info} />
       
-
     </div>
   );
 };

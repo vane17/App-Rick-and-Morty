@@ -1,11 +1,14 @@
 .Cards-section{
     display: flex;
+    justify-content: center;
 }
 
 .Cards-and-details{
     display: flex;
     width: 65%;
     flex-wrap: wrap;
+    justify-content: center;
     height: auto;
-    margin: 30px 0 30px 45px;
+   margin: 30px 0 30px 45px; 
+   
 }
