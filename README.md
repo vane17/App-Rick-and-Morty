@@ -10,25 +10,32 @@ Una vez que el comando es ejecutado el levantará un servidor  para acceder el f
 ## Funcionalidades
 - #### Lista de personajes:
 
+![]()
+
 
 
 - #### Buscar el personaje utilizando  filtro:
-
+![](https://github.com/vane17/App-Rick-and-Morty/blob/master/public/filtro.png)
 
 
 - #### Ver detalle al clicar el personaje:
+![]()
 
 
 - #### Diseño responsive:
+![](https://github.com/vane17/App-Rick-and-Morty/blob/master/public/responsive.png)
 
 
 
 - #### Numero de episodios en el detalle del personaje
+![](https://github.com/vane17/App-Rick-and-Morty/blob/master/public/episodios.png)
 
 
 - #### Paginacion en el listado de personajes
+![](https://github.com/vane17/App-Rick-and-Morty/blob/master/public/paginacion.png)
 
 - #### Serie en numeros 
+![](https://github.com/vane17/App-Rick-and-Morty/blob/master/public/serie.png)
 
 
 

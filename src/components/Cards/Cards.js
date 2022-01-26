@@ -98,7 +98,7 @@ const Cards = ({results}) => {
                                 } 
                             }
 
-                            const episodeDetails = <div id="details-episodios">-Episode: {array}</div>
+                            const episodeDetails = <div id="details-episodios">-Episodes: {array}</div>
                             const containerEpisode = document.getElementById('details-episodios')
                             ReactDOM.render(episodeDetails, containerEpisode)
 
