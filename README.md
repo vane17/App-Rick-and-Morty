@@ -19,7 +19,7 @@ Una vez que el comando es ejecutado el levantará un servidor  para acceder el f
 
 
 - #### Ver detalle al clicar el personaje:
-![](https://github.com/vane17/App-Rick-and-Morty/blob/master/public/datelle.png)
+![](https://github.com/vane17/App-Rick-and-Morty/blob/master/public/details.png)
 
 
 - #### Diseño responsive:
