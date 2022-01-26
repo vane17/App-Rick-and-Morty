@@ -3,7 +3,8 @@
     min-width: 260px;
     width: 50%;
     max-width: 330px;
-    height: 18vh;
+    
+    height: 19vh;
     margin-bottom: 20px;
 }
 
@@ -53,6 +54,13 @@
     align-self: flex-end;
     margin-right: 10px;
     cursor: pointer;
+    margin-top: 15px;
+}
+
+.detail a{
+    text-decoration: none;
+}:active{
+    text-decoration: underline;
 }
 
 .dead, .live, .unknown{

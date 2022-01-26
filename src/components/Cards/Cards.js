@@ -102,7 +102,7 @@ const Cards = ({results}) => {
                             const containerEpisode = document.getElementById('details-episodios')
                             ReactDOM.render(episodeDetails, containerEpisode)
 
-                            }} >Ver mas</button>
+                            }} ><a href='#Details'>Ver mas</a></button>
                   
                     </div>
                 </div>

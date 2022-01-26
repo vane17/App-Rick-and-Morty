@@ -1,4 +1,67 @@
-<<<<<<< HEAD
+### Dependencias
+
+Para hacer la instalación de dependencias sólo es necesario ejecutar el comando: `npm install`
+
+El comando utilizado para poner el server en start es: `npm start`
+
+Una vez que el comando es ejecutado el levantará un servidor  para acceder el front-end que corre en la puerta 3000. En el cual puede ser accedido por la url: http://localhost:3000
+
+
+## Funcionalidades
+- #### Lista de personajes:
+
+
+
+- #### Buscar el personaje utilizando  filtro:
+
+
+
+- #### Ver detalle al clicar el personaje:
+
+
+- #### Diseño responsive:
+
+
+
+- #### Numero de episodios en el detalle del personaje
+
+
+- #### Paginacion en el listado de personajes
+
+- #### Serie en numeros 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,6 +132,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
 # App-Rick-and-Morty
->>>>>>> 128b58eb144f23f64bfc1d95031c053de61676d2
