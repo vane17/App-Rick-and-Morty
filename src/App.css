@@ -12,3 +12,38 @@
    margin: 30px 0 30px 45px; 
    
 }
+
+@media (max-width: 500px){
+    .Cards-section{
+        
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .Details{
+        margin:30px auto ;
+    }
+    .Cards-and-details{
+        margin:auto;
+    }
+
+    .content{
+        margin:0 0 0 10px;
+    }
+
+}
+@media (min-width: 1280px) {
+    .Cards-and-details{
+        width: 55%;
+    }
+
+}
+
+
+@media (min-width: 1500px) {
+    .Cards-and-details{
+        width: 40%;
+    }
+
+}

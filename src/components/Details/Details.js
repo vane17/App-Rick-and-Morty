@@ -6,7 +6,7 @@ const Details = () => {
     
     return(
 
-        <div className="Details">
+        <div className="Details" id="Details">
             <h2 className="details-title">Detalle</h2>
             <span id="details-image"></span>
             

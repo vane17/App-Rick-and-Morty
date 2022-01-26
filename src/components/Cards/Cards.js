@@ -76,7 +76,7 @@ const Cards = ({results}) => {
                             const containerLocation = document.getElementById('details-location')
                             ReactDOM.render(locationDetails, containerLocation)
 
-                            
+
 
                             //----------Number of episodes:
 
@@ -102,7 +102,8 @@ const Cards = ({results}) => {
                             const containerEpisode = document.getElementById('details-episodios')
                             ReactDOM.render(episodeDetails, containerEpisode)
 
-                        }} >Ver mas</button>
+                            }} >Ver mas</button>
+                  
                     </div>
                 </div>
             );
@@ -118,4 +119,3 @@ const Cards = ({results}) => {
 
 
 export default Cards;
-
