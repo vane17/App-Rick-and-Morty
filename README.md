@@ -1,5 +1,5 @@
 ### Resultado
-Resultado: [App Rick And Morty](https://vane17.github.io/App-Rick-and-Morty/).
+Sito web= [App Rick And Morty](https://vane17.github.io/App-Rick-and-Morty/).
 
 
 ### Dependencias
