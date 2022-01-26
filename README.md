@@ -1,7 +1,3 @@
-### Resultado
-Sito web: [App Rick And Morty](https://vane17.github.io/App-Rick-and-Morty/).
-
-
 ### Dependencias
 
 Para hacer la instalación de dependencias sólo es necesario ejecutar el comando: `npm install`
