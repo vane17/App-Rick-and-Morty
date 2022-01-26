@@ -1,6 +1,8 @@
-### Dependencias
+### Resultado
+Resultado: [App Rick And Morty](https://vane17.github.io/App-Rick-and-Morty/).
 
-Resultado: [App Rick And Morty]().
+
+### Dependencias
 
 Para hacer la instalación de dependencias sólo es necesario ejecutar el comando: `npm install`
 
@@ -8,7 +10,7 @@ El comando utilizado para poner el server en start es: `npm start`
 
 Una vez que el comando es ejecutado el levantará un servidor  para acceder el front-end que corre en la puerta 3000. En el cual puede ser accedido por la url: http://localhost:3000
 
-##### Nota:  `Como este proyecto se inicializado con Create React App es necesario una versión de node superior a 14`
+##### Nota:  `Como este proyecto se inicializo con Create React App es necesario una versión de node superior a 14`
 
 
 
